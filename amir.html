@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>امیرعلی | سایت شخصی</title>
+  <meta name="description" content="طراحی وب، توسعه فرانت‌اند و بک‌اند، نمونه‌کارها و راه‌های ارتباطی.">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand">امیرعلی</a>
+      <nav class="nav" aria-label="منوی اصلی">
+        <button class="nav-toggle" aria-expanded="false" aria-label="باز کردن منو">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#home">خانه</a></li>
+          <li><a href="#services">خدمات</a></li>
+          <li><a href="#portfolio">نمونه‌کار</a></li>
+          <li><a href="#about">درباره من</a></li>
+          <li><a href="#contact">تماس</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="تغییر حالت روشن/تاریک">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <h1>طراحی و توسعه وب که نتیجه می‌دهد</h1>
+        <p>سایت‌های سریع، سئو شده و چشم‌نواز برای برندهای حرفه‌ای. از ایده تا اجرا کنار شما هستم.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">مشاهده نمونه‌کار</a>
+          <a href="#contact" class="btn btn-outline">شروع همکاری</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">خدمات</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>طراحی رابط کاربری</h3>
+            <p>طراحی مینیمال و کاربرپسند با تمرکز بر تجربه کاربری و تبدیل.</p>
+          </article>
+          <article class="card">
+            <h3>توسعه فرانت‌اند</h3>
+            <p>کدنویسی تمیز با HTML، CSS و JS، کاملاً واکنش‌گرا و بهینه.</p>
+          </article>
+          <article class="card">
+            <h3>سئو و عملکرد</h3>
+            <p>بهینه‌سازی سرعت، ساختار محتوا و سئو تکنیکال برای دیده شدن بهتر.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section alt">
+      <div class="container">
+        <h2 class="section-title">نمونه‌کار</h2>
+        <div class="grid three">
+          <article class="card image-card">
+            <img src="https://picsum.photos/600/400?random=1" alt="نمونه پروژه ۱">
+            <div class="card-body">
+              <h3>فروشگاه آنلاین</h3>
+              <p>رنگ‌بندی مدرن، فیلترهای پویا، سبد خرید سبک و سریع.</p>
+            </div>
+          </article>
+          <article class="card image-card">
+            <img src="https://picsum.photos/600/400?random=2" alt="نمونه پروژه ۲">
+            <div class="card-body">
+              <h3>سایت شرکتی</h3>
+              <p>معرفی خدمات و تیم، با فرم‌های تماس یکپارچه.</p>
+            </div>
+          </article>
+          <article class="card image-card">
+            <img src="https://picsum.photos/600/400?random=3" alt="نمونه پروژه ۳">
+            <div class="card-body">
+              <h3>وبلاگ فنی</h3>
+              <p>چینش خوانا، دسته‌بندی‌ها و جستجوی فوری.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">درباره من</h2>
+        <div class="about">
+          <div class="about-text">
+            <p>من امیرعلی هستم، توسعه‌دهنده وب. روی ساختن محصولاتی تمرکز می‌کنم که هم زیبا باشند و هم ارزش واقعی خلق کنند. برای هر پروژه، اول مسئله را دقیق می‌فهمم، بعد ساده‌ترین راه‌حل اثرگذار را پیاده‌سازی می‌کنم.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>SEO</li><li>Performance</li>
+            </ul>
+          </div>
+          <div class="about-stats">
+            <div class="stat"><span class="num">+۵۰</span><span class="label">پروژه تکمیل شده</span></div>
+            <div class="stat"><span class="num">+۱۰</span><span class="label">برند همکاری</span></div>
+            <div class="stat"><span class="num">۹۸٪</span><span class="label">رضایت مشتری</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2 class="section-title">تماس</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <label for="name">نام</label>
+            <input id="name" name="name" type="text" placeholder="نام شما" required>
+          </div>
+          <div class="form-row">
+            <label for="email">ایمیل</label>
+            <input id="email" name="email" type="email" placeholder="example@email.com" required>
+          </div>
+          <div class="form-row">
+            <label for="message">پیام</label>
+            <textarea id="message" name="message" rows="5" placeholder="از کجا شروع کنیم؟" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">ارسال پیام</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© ۲۰۲۵ امیرعلی. همه حقوق محفوظ است.</p>
+      <div class="socials">
+        <a href="#" aria-label="لینکدین">LinkedIn</a>
+        <a href="#" aria-label="گیت‌هاب">GitHub</a>
+        <a href="#" aria-label="اینستاگرام">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
